@@ -112,7 +112,7 @@
         height: auto;
     }
 /* --------------Reusable CSS Classes------------ */
-.section {
+.section{
     padding: 2rem 0 4rem;
 }
 
@@ -245,6 +245,7 @@
 
 .home__container{
     gap: 1rem;
+    margin-bottom: var(--mb-3);
 }
 
 .home__content{
@@ -351,4 +352,61 @@
 .button--flex {
     display: inline-flex;
     align-items: center;
+}
+
+
+/* ---------------ABOUT--------------------- */
+
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about__info-title,
+.about__info-name{
+    display: block;
+    text-align: center;
+
+}
+
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------SKILLS------------ */
+
+.skills__container{
+    row-gap: 0;
+}
+
+.skills__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
 }
